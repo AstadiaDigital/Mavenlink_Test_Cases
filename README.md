@@ -16,3 +16,35 @@ The second line is a brief description of the feature. Cucumber does not execute
 The fourth line, Scenario: Sunday is not Friday is a scenario, which is a concrete example illustrating how the software should behave.
 
 The last three lines starting with Given, When and Then are the steps of our scenario. This is what Cucumber will execute.
+
+---------------------------------------
+
+# Ensure Your Requirements are Captured!
+We are relying on you folks to ensure that what is built satisfies your needs
+
+* Review the current functional requirements and the related criticality for your area
+
+* Validate those that exist and add new requirements, ask for clarification, etc.
+
+* Goal is to produce a Minimal Viable Product (MVP)
+
+The final, complete set of features is only designed and developed after considering feedback from the product's initial users.
+
+---------------------------------------
+
+# Cucumber & Gherkin Language
+
+Very simple Language using Keywords
+
+Each line that isn’t a blank line has to start with a Gherkin keyword, followed by any text you like,  only exceptions are the feature and scenario descriptions. The primary keywords are:
+* Feature 
+* Rule Example (or Scenario) 
+* Given, When, Then, And, But (steps) 
+* Background 
+* Scenario Outline (or Scenario Template) 
+
+There are a few secondary keywords as well:
+*  """ (Doc Strings)
+*  | (Data Tables)
+*  @ (Tags)
+*  '# (Comments) 
